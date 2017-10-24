@@ -26,7 +26,7 @@
           <SSIS:Property SSIS:Name="CreatorComputerName">OMNI-LAP11</SSIS:Property>
           <SSIS:Property SSIS:Name="Description">
           </SSIS:Property>
-          <SSIS:Property SSIS:Name="PasswordVerifier" SSIS:Sensitive="1">AQAAANCMnd8BFdERjHoAwE/Cl+sBAAAAbQJtPMKci0Og22nsrLd04QAAAAACAAAAAAADZgAAwAAAABAAAAB78hpWP/IWnnH+dJZB/stMAAAAAASAAACgAAAAEAAAAOSGA86urVHr55K0dr9TLp+IAAAAhyZ5vOg3OVgK/nDCCTM/AkIVhnVpti+lm89YtjIZ/5txEhwc7YiJcvsrjbl+a36WKsuB7kC1lq3pRIB6nioi3isW2wWWzHnVPcidgxeXLU5oZ1ge+zHTYu7y0vuyl6JrZWqzlDNc+oY4wrf/bKN/NMF0TzHNWi5+Za/gL4JO7JnEW6sMZBOgSRQAAACl3BfO/Izf6cGjo9R4IM3DN3VG5A==</SSIS:Property>
+          <SSIS:Property SSIS:Name="PasswordVerifier" SSIS:Sensitive="1">AQAAANCMnd8BFdERjHoAwE/Cl+sBAAAAbQJtPMKci0Og22nsrLd04QAAAAACAAAAAAADZgAAwAAAABAAAABH8C6aexSwusyUQjHlyDywAAAAAASAAACgAAAAEAAAAEjnqtKCzmhGZtrevMVsQB+IAAAAlHcQbC/DGo5dhq/UTS3QZzF3fHs89nkAaBjkjv99iE9DDhsrYFZhuYs4tVggKZYNni0TiXf6QzOS0/Sojic6mEDRMexp4iCBXYsr3Ljc5JBBgb5lYHSoxiM5+1KLryqF0+/weTC4Dl6HeyocIydlYc5jN2y1GIyUKo8Jp8MLqXQO4O8CKOGLBRQAAAD0eZ4wk+3L99Myu+imy93WR6NlUg==</SSIS:Property>
           <SSIS:Property SSIS:Name="FormatVersion">1</SSIS:Property>
         </SSIS:Properties>
         <SSIS:Packages>
@@ -42,10 +42,10 @@
                 <SSIS:Property SSIS:Name="Name">Package</SSIS:Property>
                 <SSIS:Property SSIS:Name="VersionMajor">1</SSIS:Property>
                 <SSIS:Property SSIS:Name="VersionMinor">0</SSIS:Property>
-                <SSIS:Property SSIS:Name="VersionBuild">65</SSIS:Property>
+                <SSIS:Property SSIS:Name="VersionBuild">82</SSIS:Property>
                 <SSIS:Property SSIS:Name="VersionComments">
                 </SSIS:Property>
-                <SSIS:Property SSIS:Name="VersionGUID">{7A248343-74E3-43D4-947F-DBCCC1D3E1E2}</SSIS:Property>
+                <SSIS:Property SSIS:Name="VersionGUID">{8784D139-A47C-445A-B134-BE2F3996EF44}</SSIS:Property>
                 <SSIS:Property SSIS:Name="PackageFormatVersion">8</SSIS:Property>
                 <SSIS:Property SSIS:Name="Description">
                 </SSIS:Property>
@@ -108,7 +108,7 @@
                     <SSIS:Property SSIS:Name="IncludeInDebugDump">0</SSIS:Property>
                     <SSIS:Property SSIS:Name="Required">0</SSIS:Property>
                     <SSIS:Property SSIS:Name="Sensitive">0</SSIS:Property>
-                    <SSIS:Property SSIS:Name="Value">\\plinkdc1\home\IT\Development\Data Validation\Different_Address_Dup_Vin2.csv</SSIS:Property>
+                    <SSIS:Property SSIS:Name="Value">\\plinkdc1\home\IT\Development\Data Validation\Address Verification.csv</SSIS:Property>
                     <SSIS:Property SSIS:Name="DataType">18</SSIS:Property>
                   </SSIS:Properties>
                 </SSIS:Parameter>
@@ -290,7 +290,7 @@
                     <SSIS:Property SSIS:Name="IncludeInDebugDump">0</SSIS:Property>
                     <SSIS:Property SSIS:Name="Required">0</SSIS:Property>
                     <SSIS:Property SSIS:Name="Sensitive">0</SSIS:Property>
-                    <SSIS:Property SSIS:Name="Value">\\plinkdc1\home\IT\Development\Data Validation\Different_Address_Dup_Vin3.csv</SSIS:Property>
+                    <SSIS:Property SSIS:Name="Value">\\plinkdc1\home\IT\Development\Data Validation\3+Accounts.csv</SSIS:Property>
                     <SSIS:Property SSIS:Name="DataType">18</SSIS:Property>
                   </SSIS:Properties>
                 </SSIS:Parameter>
@@ -381,6 +381,8 @@
                     <SSIS:Property SSIS:Name="IncludeInDebugDump">0</SSIS:Property>
                     <SSIS:Property SSIS:Name="Required">0</SSIS:Property>
                     <SSIS:Property SSIS:Name="Sensitive">0</SSIS:Property>
+                    <SSIS:Property SSIS:Name="Value">
+                    </SSIS:Property>
                     <SSIS:Property SSIS:Name="DataType">18</SSIS:Property>
                   </SSIS:Properties>
                 </SSIS:Parameter>
@@ -470,7 +472,7 @@
                     <SSIS:Property SSIS:Name="IncludeInDebugDump">0</SSIS:Property>
                     <SSIS:Property SSIS:Name="Required">0</SSIS:Property>
                     <SSIS:Property SSIS:Name="Sensitive">0</SSIS:Property>
-                    <SSIS:Property SSIS:Name="Value">\\plinkdc1\home\IT\Development\Data Validation\Different_Seller_Dup_Vin2.csv</SSIS:Property>
+                    <SSIS:Property SSIS:Name="Value">\\plinkdc1\home\IT\Development\Data Validation\Send Letter.csv</SSIS:Property>
                     <SSIS:Property SSIS:Name="DataType">18</SSIS:Property>
                   </SSIS:Properties>
                 </SSIS:Parameter>
@@ -652,7 +654,7 @@
                     <SSIS:Property SSIS:Name="IncludeInDebugDump">0</SSIS:Property>
                     <SSIS:Property SSIS:Name="Required">0</SSIS:Property>
                     <SSIS:Property SSIS:Name="Sensitive">0</SSIS:Property>
-                    <SSIS:Property SSIS:Name="Value">\\plinkdc1\home\IT\Development\Data Validation\Different_Seller_Dup_Vin3.csv</SSIS:Property>
+                    <SSIS:Property SSIS:Name="Value">\\plinkdc1\home\IT\Development\Data Validation\Possbile Rejection.csv</SSIS:Property>
                     <SSIS:Property SSIS:Name="DataType">18</SSIS:Property>
                   </SSIS:Properties>
                 </SSIS:Parameter>
@@ -743,6 +745,8 @@
                     <SSIS:Property SSIS:Name="IncludeInDebugDump">0</SSIS:Property>
                     <SSIS:Property SSIS:Name="Required">0</SSIS:Property>
                     <SSIS:Property SSIS:Name="Sensitive">0</SSIS:Property>
+                    <SSIS:Property SSIS:Name="Value">
+                    </SSIS:Property>
                     <SSIS:Property SSIS:Name="DataType">18</SSIS:Property>
                   </SSIS:Properties>
                 </SSIS:Parameter>
@@ -920,7 +924,7 @@
                     <SSIS:Property SSIS:Name="IncludeInDebugDump">0</SSIS:Property>
                     <SSIS:Property SSIS:Name="Required">0</SSIS:Property>
                     <SSIS:Property SSIS:Name="Sensitive">0</SSIS:Property>
-                    <SSIS:Property SSIS:Name="Value">\\plinkdc1\home\IT\Development\Data Validation\Same_Seller_Dup_Vin3.csv</SSIS:Property>
+                    <SSIS:Property SSIS:Name="Value">\\plinkdc1\home\IT\Development\Data Validation\Coverage Verification.csv</SSIS:Property>
                     <SSIS:Property SSIS:Name="DataType">18</SSIS:Property>
                   </SSIS:Properties>
                 </SSIS:Parameter>
@@ -1011,6 +1015,8 @@
                     <SSIS:Property SSIS:Name="IncludeInDebugDump">0</SSIS:Property>
                     <SSIS:Property SSIS:Name="Required">0</SSIS:Property>
                     <SSIS:Property SSIS:Name="Sensitive">0</SSIS:Property>
+                    <SSIS:Property SSIS:Name="Value">
+                    </SSIS:Property>
                     <SSIS:Property SSIS:Name="DataType">18</SSIS:Property>
                   </SSIS:Properties>
                 </SSIS:Parameter>
@@ -1100,7 +1106,7 @@
                     <SSIS:Property SSIS:Name="IncludeInDebugDump">0</SSIS:Property>
                     <SSIS:Property SSIS:Name="Required">0</SSIS:Property>
                     <SSIS:Property SSIS:Name="Sensitive">0</SSIS:Property>
-                    <SSIS:Property SSIS:Name="Value">\\plinkdc1\home\IT\Development\Data Validation\Same_Seller_Dup_Vin2.csv</SSIS:Property>
+                    <SSIS:Property SSIS:Name="Value">\\plinkdc1\home\IT\Development\Data Validation\Verify Contract.csv</SSIS:Property>
                     <SSIS:Property SSIS:Name="DataType">18</SSIS:Property>
                   </SSIS:Properties>
                 </SSIS:Parameter>
